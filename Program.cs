@@ -94,7 +94,7 @@ class Human:IMovable
     IMovable.MoveHandler? moveEvent;
     event IMovable.MoveHandler IMovable.MoveEvent
     {
-        add => moveEvent += value;
+        add => moveEvent += value;//aasddasdsad
         remove=>moveEvent-=value;
     }
 
